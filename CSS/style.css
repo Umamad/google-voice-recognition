@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url(IRANSansWeb.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IranSans',Verdana;
+}
+
+body.normal {
+    background-color: #081f2c;
+    color: #003b4c;
+}
+
+.text--place {
+    width: 60%;
+    height: 500px;
+    margin: 100px auto;
+    text-align: right;
+    direction: rtl;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 15px #003b4c;
+    font-size: 1.2em;
+}
+
+.text--place.normal {
+    background-color: #6aa2b8;
+}
